@@ -3,6 +3,7 @@ body {
     background-color: white;
     padding: 10px;
     font-size: 120%;
+    font-color: white;
 }
 
 div#content {
@@ -17,7 +18,7 @@ h1, h2, h3 {
 }
 
 img {
-    float: bottom;
+    float: right;
     width: 1000px;
     height: auto;
 }
