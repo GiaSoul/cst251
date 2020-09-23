@@ -14,6 +14,10 @@ div#content {
     color: white;
 }
 
+div#image {
+    float: bottom;
+  }
+
 h1, h2, h3 {
     font-family: "Arial", monospace;
     color: grey;
