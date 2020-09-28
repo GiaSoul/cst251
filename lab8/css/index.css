@@ -1,40 +1,34 @@
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: black;
-    padding: 10px;
-    font-size: 120%;
-    color: white;
+    background-color: darkgray;
+    padding: 25px;
+    font-size: 130%;
 }
 
 div#content {
     padding: 50px;
-    background-color: DarkOrchid;
+    background-color: lightgray;
     border: solid 1px #333333;
     height: 80vh;
-    color: white;
 }
-
 
 h1, h2, h3 {
-    font-family: "Arial", monospace;
-    color: grey;
+    font-family: "Courier New", monospace;
 }
 
-img {
+.skate img {
     float: right;
-    width: 500px;
+    width: 200px;
     height: auto;
+    border-width:thick;
+    border-color: black;
 }
-
-img:hover {
-  transform: scaleX(-1);
-  transform: height:75%;
-  transform: width: 75%;
-}
+p.style {
+  color: blue;
 
 a {
     text-decoration: none;
-    color: grey;
+    color: cyan;
 }
 a:hover {
     text-decoration: underline;
