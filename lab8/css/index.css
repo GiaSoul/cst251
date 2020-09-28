@@ -13,15 +13,19 @@ div#content {
 }
 
 h1, h2, h3 {
-    font-family: "Courier New", monospace;
+    font-family: "Helvetica", monospace;
 }
 
-.skate img {
-    float: right;
-    width: 200px;
+div#image {
+    float: auto;
     height: auto;
-    border-width:thick;
+    border-width:thin;
     border-color: black;
+}
+
+img:hover {
+  width:150%;
+  height:150%;
 }
 p.style {
   color: blue;
@@ -33,8 +37,4 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: underline overline;
-}
-img:hover {
-  width:150%;
-  height:150%;
 }
