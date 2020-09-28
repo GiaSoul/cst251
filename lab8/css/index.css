@@ -1,24 +1,25 @@
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
     background-color: darkgray;
-    padding: 25px;
+    padding: 10px;
     font-size: 130%;
 }
 
 div#content {
-    padding: 50px;
+    padding: 30px;
     background-color: lightblue;
     border: solid 1px #333333;
     height: 80vh;
 }
 
 h1, h2, h3 {
-    font-family: "Helvetica", monospace;
+    font-family: "Arial", monospace;
 }
 
 div#image {
     float: auto;
-    height: auto;
+    height: 50%;
+    width: 50%;
     border-width:thin;
     border-color: black;
 }
