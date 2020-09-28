@@ -24,8 +24,8 @@ div#image {
 }
 
 img:hover {
-  width:150%;
-  height:150%;
+  width:2000px;
+  height:1000px;
 }
 p.style {
   color: blue;
