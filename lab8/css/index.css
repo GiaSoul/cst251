@@ -32,5 +32,9 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: underline overline;
+}
+img:hover {
+  width:150%;
+  height:150%;
 }
