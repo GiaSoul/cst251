@@ -23,6 +23,7 @@ body {
     position: relative;
     border: groove 10px white;
     float: left;
+    margin: 25px;
 }
 
 a {
