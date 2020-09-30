@@ -21,8 +21,7 @@ body {
 
 .pic {
     position: relative;
-    bottom: 60px;
-    border: groove 5px red;
+    border: groove 10px white;
     float: right;
 }
 
