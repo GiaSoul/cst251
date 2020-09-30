@@ -4,15 +4,15 @@ body {
   background-size: contain;
   background-attachment: fixed;
   color:white;
-  font-size: 120%;
+  font-size: 150%;
 }
 
 #content {
-  background-color: black;
+  background-color: slategrey;
   margin: 25px;
   border: double 5px white;
   padding: 40px;
-  height: 79vh;
+  height: 80vh;
 }
 
 #content p {
