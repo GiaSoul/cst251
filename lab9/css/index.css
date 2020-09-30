@@ -3,12 +3,12 @@ body {
   padding: 80px
   background-size: contain;
   background-attachment: fixed;
-  color:white;
+  color:black;
   font-size: 110%;
 }
 
 #content {
-  background-color: bisque;
+  background-color: lightcyan;
   margin: 25px;
   border: double 5px white;
   padding: 40px;
@@ -26,5 +26,5 @@ body {
 }
 
 a {
-  color: bisque;
+  color: beige;
 }
