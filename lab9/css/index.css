@@ -22,7 +22,7 @@ body {
 .pic {
     position: relative;
     border: groove 10px white;
-    float: top;
+    float: left;
 }
 
 a {
