@@ -1,0 +1,30 @@
+body {
+  background-image: url("../img/waves.png");
+  background-size: contain;
+  background-attachment: fixed;
+  color:black;
+  font-size: 100%;
+}
+
+#content {
+  background-color: #white;
+  margin: 25px;
+  border: double 5px white;
+  padding: 40px;
+  height: 80vh;
+}
+
+#content p {
+    margin-right: 100px;
+}
+
+.pic {
+    position: relative;
+    border: groove 10px white;
+    float: left;
+    margin: 25px;
+}
+
+a {
+  color: white;
+}
