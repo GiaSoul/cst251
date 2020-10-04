@@ -10,8 +10,8 @@ h1, h2, h3 {
     font-family: "Verdana", monospace;
   }
 #style {
-  font-family: "Arial", monospace
-  background-color: #white;
+  font-family: "Arial", monospace;
+  background-color: lightblue;
   margin: 25px;
   border: double 5px white;
   padding: 40px;
