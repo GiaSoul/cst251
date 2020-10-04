@@ -1,12 +1,16 @@
 body {
+  font-family: Helvetica, Verdana, Arial, "san serif";
   background-image: url("../img/waves.png");
   background-size: contain;
   background-attachment: fixed;
   color:black;
   font-size: 100%;
 }
-
-#content {
+h1, h2, h3 {
+    font-family: "Verdana", monospace;
+  }
+#style {
+  font-family: "Arial", monospace
   background-color: #white;
   margin: 25px;
   border: double 5px white;
@@ -14,7 +18,7 @@ body {
   height: 80vh;
 }
 
-#content p {
+#style p {
     margin-right: 100px;
 }
 
