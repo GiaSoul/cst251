@@ -30,3 +30,6 @@ div#content{
 a {
   color: white;
 }
+a:hover {
+  background-color: blue;
+}
