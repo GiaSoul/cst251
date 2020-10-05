@@ -1,7 +1,7 @@
 body {
   font-family: "Lucida Console", Courier, monospace;
   background-color: #466438;
-  color:black;
+  color:Black;
   font-size: 200%;
 }
 h2, h3 {
@@ -16,12 +16,12 @@ div#content{
   font-family: "Courier", monospace;
   background-color: #53382f;
   margin: 25px;
-  border: single 10px black;
+  border: single 10px Black;
 }
 
 .pic {
   position: relative;
-  border: solid 10px #white;
+  border: solid 10px #Black;
   float: left;
   width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
