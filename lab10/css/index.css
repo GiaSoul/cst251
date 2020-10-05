@@ -14,8 +14,7 @@ div#content{
   font-family: "Courier", monospace;
   background-color: lightblue;
   margin: 25px;
-  border: double 5px white;
-  padding: 40px;
+  border: double 10px white;
 }
 
 .pic {
