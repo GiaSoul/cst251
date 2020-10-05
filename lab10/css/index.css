@@ -3,6 +3,7 @@ body {
   background-color: #466438;
   color:Black;
   font-size: 200%;
+  margin-left: auto;
 }
 h2, h3 {
     font-family: "Lucida Console", monospace;
@@ -16,13 +17,14 @@ div#content{
   font-family: "Courier", monospace;
   margin: 25px;
   border: single 10px Black;
+  margin-left: auto;
 }
 
 .pic {
   position: relative;
   border: solid 10px #Black;
   float: left;
-  width: 250px;
+  width: 25%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
