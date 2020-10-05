@@ -1,16 +1,16 @@
 body {
-  font-family: Helvetica, Verdana, Arial, "san serif";
+  font-family: "Lucida Console", Courier, monospace;
   background-image: url("../img/waves.png");
   background-size: contain;
   background-attachment: fixed;
   color:black;
-  font-size: 100%;
+  font-size: 200%;
 }
 h1, h2, h3 {
-    font-family: "Verdana", monospace;
+    font-family: "Lucida Console", monospace;
   }
 div#content{
-  font-family: "Arial", monospace;
+  font-family: "Courier", monospace;
   background-color: lightblue;
   margin: 25px;
   border: double 5px white;
