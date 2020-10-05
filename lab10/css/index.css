@@ -18,13 +18,10 @@ div#content{
   padding: 40px;
 }
 
-
 .pic {
-    position: relative;
-    border: groove 10px white;
-    float: left;
-    margin: 25px;
-    margin-right: 100px;
+  position: relative;
+  border: solid 10px #white;
+  float: left;
 }
 
 a {
