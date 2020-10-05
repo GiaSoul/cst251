@@ -4,19 +4,19 @@ body {
   color:black;
   font-size: 200%;
 }
-h1, h2, h3 {
+h2, h3 {
     font-family: "Lucida Console", monospace;
   }
 
-div#title{
+h1 {
     font-family: "Arial Black", Gadget, sans-serif
   }
 
 div#content{
   font-family: "Courier", monospace;
-  background-color: lightblue;
+  background-color: #53382f;
   margin: 25px;
-  border: double 10px white;
+  border: single 10px black;
 }
 
 .pic {
@@ -26,8 +26,5 @@ div#content{
 }
 
 a {
-  color: white;
-}
-a:hover {
-  background-color: blue;
+  color: #53382f;
 }
