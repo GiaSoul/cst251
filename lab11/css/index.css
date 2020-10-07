@@ -43,9 +43,9 @@ h2, h3 {
   font-size: 133%;
   }
 
-  #text {
+  #content {
     background-color: black;
-    border: solid 19px lightblue;
+    border: solid 20px lightblue;
     margin-right: -10px;
     margin-left: -10px;
     padding-left: 10px;
