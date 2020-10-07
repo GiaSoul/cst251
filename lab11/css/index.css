@@ -18,14 +18,9 @@ h2, h3 {
   .img {
     position: relative;
     left: 31%;
+    left: 69%;
     bottom: 30px;
   }
-
-  #sword {
-    position: relative;
-    left: 31%;
-    bottom: 30px;
-}
 
 
   #links {
