@@ -22,10 +22,9 @@ h2, h3 {
   }
 
   #sword {
-    display: flex;
- align-items: center;
- justify-content: center;
- margin: 0;
+    position: relative;
+    left: 31%;
+    bottom: 30px;
 }
 
 
