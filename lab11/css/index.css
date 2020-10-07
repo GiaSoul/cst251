@@ -15,13 +15,26 @@ h2, h3 {
     font-family: "Lucida Console", monospace;
   }
 
-  #text {
-    background-color: black;
-    border: solid 19px lightblue;
-    margin-right: -10px;
-    margin-left: -10px;
-    padding-left: 10px;
-    font-size: 120%;
+  .img {
+    position: relative;
+    left: 31%;
+    bottom: 30px;
+  }
+
+  #sword {
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+}
+
+
+  #links {
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    width: 15%;
+    background-color: lightblue;
   }
 
   #sidebar {
@@ -32,20 +45,15 @@ h2, h3 {
   min-width: 300px;
   background:transparent;
   position: relative;
-  color: grey;
+  color: white;
   font-size: 133%;
   }
 
-  .img {
-    position: relative;
-    left: 31%;
-    bottom: 30px;
-  }
-
-  #links {
-    position: sticky;
-    top: 0;
-    display: inline-block;
-    width: 15%;
-    background-color: lightblue;
+  #text {
+    background-color: black;
+    border: solid 19px lightblue;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-left: 10px;
+    font-size: 120%;
   }
