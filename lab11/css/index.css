@@ -1,0 +1,50 @@
+body {
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: Black;
+  color:white;
+  font-size: 180%;
+  margin-left: auto;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif
+  }
+
+h2, h3 {
+    font-family: "Lucida Console", monospace;
+  }
+
+  #text {
+    background-color: black;
+    border: solid 19px lightblue;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-left: 10px;
+    font-size: 120%;
+  }
+
+  #sidebar {
+  display: inline-block;
+  width: 33.3%;
+  min-width: 300px;
+  background:transparent;
+  position: relative;
+  left: 66%;
+  bottom: 50px;
+  color: white;
+  font-size: 115%;
+  }
+
+  .img {
+    position: relative;
+    left: 31%;
+    bottom: 30px;
+  }
+
+  #links {
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    width: 15%;
+    background-color: yellow;
+  }
