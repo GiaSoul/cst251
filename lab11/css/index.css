@@ -26,14 +26,14 @@ h2, h3 {
 
   #sidebar {
   display: inline-block;
+  left: 66%;
+  bottom: 50px;
   width: 33.3%;
   min-width: 300px;
   background:transparent;
   position: relative;
-  left: 66%;
-  bottom: 50px;
-  color: white;
-  font-size: 115%;
+  color: grey;
+  font-size: 133%;
   }
 
   .img {
@@ -47,5 +47,5 @@ h2, h3 {
     top: 0;
     display: inline-block;
     width: 15%;
-    background-color: yellow;
+    background-color: lightblue;
   }
