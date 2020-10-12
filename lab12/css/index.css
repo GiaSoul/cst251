@@ -1,0 +1,65 @@
+body {
+  background-image: url("../img/rey.jpg");
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: Black;
+  color:white;
+  font-size: 150%;
+  margin-left: auto;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif
+  }
+
+h2, h3 {
+    font-family: "Lucida Console", monospace;
+  }
+
+
+#title {
+    font-family: "Arial Black", Gadget, sans-serif
+}
+
+#floated {
+  width: 30%;
+  float: right;
+}
+
+#center-horz {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+#center-img {
+  width: 133px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#center-both {
+  width: 133px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#links {
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    width: 30%;
+    background-color: lightblue;
+  }
+
+#content {
+    width: 30%;
+    background-color: black;
+    border: solid 20px lightblue;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-left: 10px;
+    font-size: 120%;
+  }
