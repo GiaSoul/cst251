@@ -1,9 +1,9 @@
 body {
-  background-image: url("../img/rey.jpg");
+  background-image: url("../img/cross.jpg");
   font-family: "Lucida Console", Courier, monospace;
   background-color: Black;
   color:white;
-  font-size: 150%;
+  font-size: 100%;
   margin-left: auto;
 }
 
@@ -33,14 +33,12 @@ h2, h3 {
 }
 
 #center-img {
-  width: 133px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 #center-both {
-  width: 133px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,13 +49,13 @@ h2, h3 {
     top: 0;
     display: inline-block;
     width: 30%;
-    background-color: lightblue;
+    background-color: crimson;
   }
 
 #content {
     width: 30%;
     background-color: black;
-    border: solid 20px lightblue;
+    border: solid 20px crimson;
     margin-right: -10px;
     margin-left: -10px;
     padding-left: 10px;
