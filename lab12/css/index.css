@@ -23,13 +23,13 @@ h2, h3 {
 #floated {
   width: 30%;
   float: right;
+  color: white;
 }
 
 #center-horz {
   width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center
+  text-align: center;
+  color: white;
 }
 
 #center-img {
