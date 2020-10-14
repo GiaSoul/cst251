@@ -1,0 +1,68 @@
+body, #container {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  z-index: -100;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url("../img/comet.jpg");
+  font-family: Avenir, Arial, sans-serif;
+  color: white;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif
+  }
+
+h2, h3 {
+    font-family: "Lucida Console", monospace;
+  }
+
+
+#title {
+    font-family: "Arial Black", Gadget, sans-serif
+}
+
+#floated {
+  width: 30%;
+  float: right;
+  color: white;
+}
+
+#center-horz {
+  width: 30%;
+  text-align: center;
+  color: white;
+}
+
+#center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#center-both {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#links {
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    width: 30%;
+    background-color: crimson;
+  }
+
+#content {
+    width: 30%;
+    background-color: black;
+    border: solid 20px crimson;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-left: 10px;
+    font-size: 120%;
+  }
