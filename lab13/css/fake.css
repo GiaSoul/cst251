@@ -1,68 +1,56 @@
-body, #container {
-  position: relative;
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
-  z-index: -100;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+body {
+  font-family: 'Pattaya', sans-serif;
   background-image: url("../img/comet.jpg");
-  font-family: Avenir, Arial, sans-serif;
-  color: white;
+  background-size: cover;
 }
 
-h1 {
-    font-family: "Arial Black", Gadget, sans-serif
-  }
-
-h2, h3 {
-    font-family: "Lucida Console", monospace;
-  }
-
-
-#title {
-    font-family: "Arial Black", Gadget, sans-serif
+#small {
+  font-family: 'Pattaya', sans-serif;
+  position: relative;
+  color: turquoise;
+  font-size: 200%;
+  margin-bottom: -20px;
+  top: 30%;
+  word-spacing: 20px;
 }
 
-#floated {
-  width: 30%;
-  float: right;
-  color: white;
+#big {
+  font-family: 'Pattaya', sans-serif;
+  color: turquoise;
+  top: 30%;
+  position: relative;
+  font-size: 250%;
+  word-spacing: 20px;
 }
 
-#center-horz {
-  width: 30%;
-  text-align: center;
-  color: white;
-}
-
-#center-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#center-both {
+p {
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  margin-top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 30%;
 }
 
-#links {
-    position: sticky;
-    top: 0;
-    display: inline-block;
-    width: 30%;
-    background-color: crimson;
+h1, h2, h3{
+    margin-top: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: -1px 2px DarkTurquoise;
   }
 
-#content {
-    width: 30%;
-    background-color: black;
-    border: solid 20px crimson;
-    margin-right: -10px;
-    margin-left: -10px;
-    padding-left: 10px;
-    font-size: 120%;
-  }
+
+#ticket {
+  border: 2px solid red;
+  background-color: #ff602b;
+  width: 150px;
+  color: #090033;
+  border-radius: 300px;
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 33px;
+  margin-left: 45%;
+  top: 30%;
+  position: relative;
+}

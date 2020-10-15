@@ -1,14 +1,9 @@
 body, #container {
-  position: relative;
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
-  z-index: -100;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: black;
-  font-family: Avenir, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   color: white;
 }
 
@@ -40,12 +35,6 @@ h2, h3 {
   }
 
 #content {
-    width: 30%;
-    background-color: slategrey;
-    border: solid 20px crimson;
-    margin-right: -10px;
-    margin-left: -10px;
-    padding-left: 10px;
     font-size: 120%;
   }
 
