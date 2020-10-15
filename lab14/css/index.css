@@ -1,0 +1,46 @@
+body, #container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif
+  }
+
+h2, h3 {
+    font-family: "Lucida Console", monospace;
+  }
+
+  iframe#fake {
+      width: 800px;
+      height: 500px;
+      resize: both;
+      overflow: hidden;
+  }
+
+#title {
+    font-family: "Arial Black", Gadget, sans-serif
+}
+
+#links {
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    width: 30%;
+    background-color: slategrey;
+  }
+
+#content {
+    font-size: 120%;
+  }
+
+  iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
