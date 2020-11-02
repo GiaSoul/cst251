@@ -1,0 +1,44 @@
+body {
+  background-image: linear-gradient(cyan, black);
+  font-family: "Roboto", sans-serif;
+}
+
+header, main, section, footer, nav, aside {
+  border: solid 4px black;
+}
+
+header {
+  font-size: 330%;
+  font-weight: bolder;
+  background-color: white;
+  padding-left: 410px;
+}
+
+main {
+  margin-left: 243px;
+  margin-right: 264px;
+  background-color: #20B2AA;
+  clear: both;
+  position: relative;
+  bottom: 371px;
+}
+
+nav {
+  margin-right: 80%;
+  background-color: #20B2AA;
+  font-size: 170%;
+  line-height: 90px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer {
+  margin-left: 80%;
+  background-color: #20B2AA;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  bottom: 757px;
+}
