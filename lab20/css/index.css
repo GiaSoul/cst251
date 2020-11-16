@@ -1,6 +1,10 @@
+body {
+  background-color: #000080;
+  color: #F0FFFF;
+}
 .col {
   min-height: 200px;
-  border: solid 2px slategrey;
+  border: solid 2px white;
 }
 
 .col h1, .col h2 {
@@ -8,7 +12,7 @@
 }
 
 .row {
-  border: solid 2px slategray;
+  border: solid 2px white;
 }
 .img {
   width: 20%;
