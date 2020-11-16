@@ -1,0 +1,15 @@
+.col {
+  min-height: 200px;
+  border: solid 2px slategrey;
+}
+
+.col h1, .col h2 {
+  text-align: center;
+}
+
+.row {
+  border: solid 2px slategray;
+}
+.img {
+  size: 500px;
+}
